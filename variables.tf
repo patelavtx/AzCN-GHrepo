@@ -59,7 +59,7 @@ variable "controller_virtual_machine_admin_password" {
 variable "controller_virtual_machine_size" {
   type        = string
   description = "Virtual Machine size for the controller."
-  default     = "Standard_A4_v2"
+  default     = "Standard_B2ms"
 }
 
 variable "controller_vnet_cidr" {
@@ -159,7 +159,7 @@ variable "add_ssh_key" {
 variable "virtual_machine_size" {
   type        = string
   description = ""
-  default     = "Standard_A4_v2"
+  default     = "Standard_D2s_v3"
 }
 
 variable "virtual_machine_admin_username" {
