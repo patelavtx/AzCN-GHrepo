@@ -219,9 +219,9 @@ controller_name = "azCN-ctl-cne"
 controller_vnet_cidr = "10.190.190.0/24"
 controller_subnet_cidr = "10.190.190.0/24"
 
-storage_account_name = "azcnctlcne"
-storage_account_container = "azcnctlcne"
-storage_account_region = "China East"
+storage_account_name = "azcnctl"
+storage_account_container = "azcnctl"
+storage_account_region = "China North"
 
 enable_backup = "true"
 enable_multiple_backup = "true"
