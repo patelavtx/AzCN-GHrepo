@@ -1,0 +1,10 @@
+{
+    "BYOL" : {
+        "Azure ARM" : {
+            "publisher": "cbcnetworks",
+            "offer": "aviatrix-copilot",
+            "sku": "aviatrix-copilot-cn-sku",
+            "version": "3.10.1"
+        }
+    }
+}
