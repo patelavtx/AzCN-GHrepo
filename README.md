@@ -5,7 +5,8 @@
 These Terraform modules launch an Aviatrix Controller in Azure China and create an access account on the controller. It allows to specify the Certificate Domain, which must be a domain with an ICP registration. This is a requirement for controllers deployed in China. 
 It also allows to specify an Azure storage account to enable backups.
 
-Copilot deployment code is also added here.
+Controller instance size (Standard_B2ms)
+Copilot deployment code is also added here.   (default instance size Standard_D2s_v3)
 
 
 ## Prerequisites

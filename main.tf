@@ -72,7 +72,7 @@ module "copilot_build_azure" {
   virtual_machine_admin_password = var.virtual_machine_admin_password
   location                       = var.location
   use_existing_vnet              = var.use_existing_vnet
-  virtual_machine_size           = var.virtual_machine_size            # default
+  virtual_machine_size           = var.virtual_machine_size            # Standard_D2s_v3
   resource_group_name            = module.aviatrix_controller_build.aviatrix_controller_rg.name
   subnet_id                      = module.aviatrix_controller_build.aviatrix_controller_subnet.id
   default_data_disk_size         = var.default_data_disk_size
