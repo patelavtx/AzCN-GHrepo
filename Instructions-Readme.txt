@@ -48,5 +48,6 @@ STEP2.  Run the TF code
 NOTES/.
 
 1. Copilot Security Group Management workflow errors on 'China North' deployed location -    "Provided region_name * doesn't match supported format"
-2. Note.  above works fine for "China North 3" deployed
-3. Copilot link to controller requires  https inbounc rule on controller NSG (public ip flow, not private ip)
+2. Note.  above does not work  for "China North 3" other CN regions not checked
+** ----------------------------------------------------------------------------**
+**3. Copilot link to controller requires  https inbouns rule on controller NSG (public ip flow, not private ip)**
