@@ -42,3 +42,11 @@ export ARM_TENANT_ID="00000000-0000-0000-0000-000000000000"
 
 
 STEP2.  Run the TF code 
+
+
+
+NOTES/.
+
+1. Copilot Security Group Management workflow errors on 'China North' deployed location -    "Provided region_name * doesn't match supported format"
+2. Note.  above works fine for "China North 3" deployed
+3. Copilot link to controller requires  https inbounc rule on controller NSG (public ip flow, not private ip)
